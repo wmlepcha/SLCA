@@ -29,7 +29,7 @@ export default function Home() {
             <Link href="/about" className="rounded-md bg-[#2e7d32] text-white px-6 py-3 font-medium hover:opacity-95">
               Learn more
             </Link>
-            <Link href="/objectives" className="rounded-md border border-[#2e7d32] text-[#2e7d32] px-6 py-3 font-medium hover:bg-[#2e7d3210]">
+            <Link href="/objectives" className="hidden md:block rounded-md border border-[#2e7d32] text-[#2e7d32] px-6 py-3 font-medium hover:bg-[#2e7d3210]">
               Aims & Objectives
             </Link>
           </div>

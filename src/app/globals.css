@@ -216,6 +216,7 @@ main {
   height: 70px;
   overflow: visible;
   z-index: 50;
+  border-top: none; /* Remove any top border */
 }
 
 .wavy-nav-background {
@@ -227,6 +228,7 @@ main {
   background-color: var(--dark-green);
   z-index: 0;
   overflow: visible;
+  border-top: none; /* Remove any top border */
 }
 
 /* Simple border below active item */
