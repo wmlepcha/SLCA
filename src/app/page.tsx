@@ -123,7 +123,7 @@ export default function Home() {
               </div>
               <div className="mt-8 text-center">
                 <p className="italic">
-                  "Our mission is to ensure that the wisdom, arts, and traditions of our ancestors continue to thrive and inspire future generations of Lepchas."
+                  &ldquo;Our mission is to ensure that the wisdom, arts, and traditions of our ancestors continue to thrive and inspire future generations of Lepchas.&rdquo;
                 </p>
               </div>
             </div>
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="mt-16 mb-16 bg-gray-50 rounded-lg p-8 text-center">
             <h2 className="text-3xl font-bold mb-4">Join Our Community</h2>
             <p className="text-lg max-w-2xl mx-auto mb-8">
-              Whether you're a member of the Lepcha community or simply interested in learning more about our culture and traditions, we welcome your involvement and support.
+              Whether you&apos;re a member of the Lepcha community or simply interested in learning more about our culture and traditions, we welcome your involvement and support.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact" className="rounded-md bg-[var(--brand-green)] text-white px-6 py-3 font-medium hover:opacity-95">

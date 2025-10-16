@@ -18,12 +18,8 @@ export default function WavyMobileNav() {
   const pathname = usePathname();
   const [activeTab, setActiveTab] = useState(pathname);
   const navRef = useRef<HTMLDivElement>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
-
   useEffect(() => {
     setActiveTab(pathname);
-    const index = navItems.findIndex(item => item.href === pathname);
-    setActiveIndex(index >= 0 ? index : 0);
   }, [pathname]);
 
   return (
@@ -33,7 +29,7 @@ export default function WavyMobileNav() {
         </div>
         
         <div className="wavy-nav-items">
-          {navItems.map((item, index) => {
+          {navItems.map((item) => {
             const isActive = activeTab === item.href;
             return (
               <Link
