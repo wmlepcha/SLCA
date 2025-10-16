@@ -17,6 +17,7 @@
   
   /* New color scheme based on Pinterest image */
   --dark-green: #003631; /* Dark Green from image */
+  --light-green: #e8f5e8; /* Light Green for sections */
   --butter-yellow: #FFEDA8; /* Butter Yellow from image */
 }
 
@@ -31,17 +32,23 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* Removed dark mode auto-switch to maintain consistent light theme */
 
 body {
   background: var(--background);
   color: var(--foreground);
   /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Ensure main content areas have proper background */
+main {
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+/* Ensure page containers have proper background */
+.container {
+  background-color: var(--background);
 }
 .fredericka-the-great-regular {
   font-family: var(--font-fredericka), serif;
