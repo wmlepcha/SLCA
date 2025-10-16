@@ -33,11 +33,13 @@ export const metadata: Metadata = {
   description: "Official website of the Sikkimese Lepcha Cultural Association (SLCA)",
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/favicon.ico?v=2', sizes: 'any' },
+      { url: '/favicon.ico?v=2', type: 'image/x-icon' },
+      { url: '/favicon.ico?v=2', sizes: '32x32' },
+      { url: '/favicon.ico?v=2', sizes: '16x16' },
     ],
-    shortcut: '/favicon.ico',
-    apple: '/favicon.ico',
+    shortcut: '/favicon.ico?v=2',
+    apple: '/favicon.ico?v=2',
   },
 };
 
@@ -48,6 +50,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+        <link rel="icon" href="/favicon.ico?v=2" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico?v=2" />
+        <link rel="apple-touch-icon" href="/favicon.ico?v=2" />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} ${fredericka.variable} ${bebas.variable} antialiased`}>
         <div className="min-h-screen flex flex-col">
           <Navbar />
