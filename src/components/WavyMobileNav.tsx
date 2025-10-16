@@ -23,7 +23,7 @@ export default function WavyMobileNav() {
   }, [pathname]);
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center md:hidden block">
+    <div className="fixed bottom-0 left-0 right-0 z-50 flex justify-center block md:hidden">
       <nav className="wavy-nav-container" ref={navRef} aria-label="Main Navigation">
         <div className="wavy-nav-background">
         </div>
