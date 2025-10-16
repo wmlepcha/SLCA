@@ -83,7 +83,7 @@ export default function Home() {
                   We have a profound spiritual connection to nature, with our traditional belief system centered around mountain deities and nature spirits. Our language, <em>Róng-ring</em>, has its own script and rich oral traditions including folklore, myths, and songs that carry our ancestral wisdom.
                 </p>
                 <p>
-                  Traditional Lepcha attire includes the <em>dumvum</em> (women's dress) and <em>thokro-dum</em> (men's garment), often adorned with intricate woven patterns as seen in the border above. These textiles showcase geometric designs passed down through generations, with each pattern carrying cultural significance.
+                  Traditional Lepcha attire includes the <em>dumvum</em> (women&apos;s dress) and <em>thokro-dum</em> (men&apos;s garment), often adorned with intricate woven patterns as seen in the border above. These textiles showcase geometric designs passed down through generations, with each pattern carrying cultural significance.
                 </p>
               </div>
               <div className="order-1 md:order-2 flex justify-center">

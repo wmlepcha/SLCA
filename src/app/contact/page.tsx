@@ -46,7 +46,7 @@ export default function ContactPage() {
         
         <p className="text-lg max-w-3xl mx-auto text-center mb-12">
           Have questions about our organization or want to get involved? 
-          We'd love to hear from you. Use the form below or reach out directly.
+          We&apos;d love to hear from you. Use the form below or reach out directly.
         </p>
       </section>
       
@@ -117,7 +117,7 @@ export default function ContactPage() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <h3 className="text-xl font-semibold mb-2">Message Sent!</h3>
-                <p className="mb-4">Thank you for contacting us. We'll respond to your message as soon as possible.</p>
+                <p className="mb-4">Thank you for contacting us. We&apos;ll respond to your message as soon as possible.</p>
                 <button 
                   onClick={() => setFormStatus({ submitted: false, submitting: false, error: false })}
                   className="px-4 py-2 bg-[var(--brand-green)] text-white rounded hover:opacity-90"
